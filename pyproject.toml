@@ -1,0 +1,40 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "koa-fhe"
+version = "0.1.1"
+description = "Confidential coprocessor client — compute on encrypted data via Koa's FHE service"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+authors = [{ name = "Koa", email = "koa@openclaw.ai" }]
+keywords = ["fhe", "homomorphic", "encryption", "privacy", "confidential", "x402", "agent"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security :: Cryptography",
+]
+dependencies = [
+    "concrete-python>=2.8",
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+ml = ["concrete-ml>=1.8"]
+langchain = ["langchain-core>=0.2"]
+
+[project.urls]
+Homepage = "https://github.com/Euda1mon1a/koa-fhe"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/koa_fhe"]

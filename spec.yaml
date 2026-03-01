@@ -1,0 +1,25 @@
+description: >
+  Confidential coprocessor — compute on encrypted data via Fully Homomorphic
+  Encryption (FHE). The server never sees plaintext. Pay per query in USDC
+  via x402 on Base. ERC-8004 Agent ID 21648.
+transport: streamable-http
+repository_url: https://github.com/Euda1mon1a/koa-fhe
+tools:
+  - fhe_health
+  - fhe_circuits
+  - fhe_compare
+  - fhe_add
+  - fhe_multiply
+  - fhe_measure_rigidity
+  - fhe_analyze_schedule
+tags:
+  - security
+  - encryption
+  - homomorphic
+  - fhe
+  - privacy
+  - confidential-computing
+  - x402
+  - agent
+tier: Community
+status: Active

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "name": "io.github.euda1mon1a/koa-fhe",
+  "description": "Confidential coprocessor — compute on encrypted data via FHE. Server never sees plaintext. Pay per query in USDC via x402.",
+  "repository": {
+    "url": "https://github.com/Euda1mon1a/koa-fhe",
+    "source": "github"
+  },
+  "version": "0.1.1",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "koa-fhe",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
