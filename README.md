@@ -1,5 +1,7 @@
 # koa-fhe
 
+<!-- mcp-name: io.github.euda1mon1a/koa-fhe -->
+
 Confidential coprocessor client — compute on encrypted data via Koa's FHE service.
 
 The server **never sees plaintext**. Your data is encrypted locally, evaluated under Fully Homomorphic Encryption, and decrypted locally. Every query costs $0.001–$0.10 USDC via [x402](https://www.x402.org/).
