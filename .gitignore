@@ -8,3 +8,5 @@ build/
 .pytest_cache/
 *.so
 .DS_Store
+.mcpregistry_github_token
+.mcpregistry_registry_token
