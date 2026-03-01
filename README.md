@@ -1,6 +1,6 @@
 # koa-fhe
 
-<!-- mcp-name: io.github.euda1mon1a/koa-fhe -->
+<!-- mcp-name: io.github.Euda1mon1a/koa-fhe -->
 
 Confidential coprocessor client — compute on encrypted data via Koa's FHE service.
 

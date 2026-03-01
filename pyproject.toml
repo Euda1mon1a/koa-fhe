@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "koa-fhe"
-version = "0.1.1"
+version = "0.1.2"
 description = "Confidential coprocessor client — compute on encrypted data via Koa's FHE service"
 readme = "README.md"
 license = "MIT"
